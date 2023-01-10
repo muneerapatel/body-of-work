@@ -1,0 +1,50 @@
+:root {
+  --primary-colour: #1a1a1b;
+  --secondary-colour: #f7c873;
+  --tertiary-colour: #f9e2b6;
+  --quaternary-colour: #f8f8f8;
+}
+
+body {
+  background-color: var(--primary-colour);
+}
+
+h1 {
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: 600;
+  font-size: 96px;
+  color: var(--quaternary-colour);
+}
+
+h2 {
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  color: var(--secondary-colour);
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px;
+}
+
+.btn-branding {
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: 300;
+  background: rgb(21, 21, 21);
+  border-radius: 5px;
+  color: var(--tertiary-colour);
+  font-size: 20px;
+  line-height: 27px;
+  padding: 13px 18px;
+  transition: 0.5s ease-out;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.btn-branding:hover {
+  color: black;
+  background: var(--tertiary-colour);
+  border: solid 1px black;
+}
