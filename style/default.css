@@ -48,3 +48,35 @@ h2 {
   background: var(--tertiary-colour);
   border: solid 1px black;
 }
+
+.proj-section {
+  font-family: "Sofia Sans", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: var(--secondary-colour);
+  margin: 0px 60px;
+}
+.featured-proj {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.title-proj {
+  font-size: 35px;
+}
+
+.descrip-proj {
+  margin: 15px 0px;
+  font-size: 20px;
+}
+
+.button-proj {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 300;
+  background: var(--tertiary-colour);
+  border-radius: 5px;
+  color: black;
+  font-size: 20px;
+  line-height: 27px;
+  padding: 13px 18px;
+}
