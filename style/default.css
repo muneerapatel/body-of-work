@@ -27,42 +27,31 @@ h2 {
 
 .hero {
   text-align: center;
-  padding: 100px;
-}
-
-.btn-branding {
-  font-family: "Sofia Sans", sans-serif;
-  font-weight: 300;
-  background: rgb(21, 21, 21);
-  border-radius: 5px;
-  color: var(--tertiary-colour);
-  font-size: 20px;
-  line-height: 27px;
-  padding: 13px 18px;
-  transition: 0.5s ease-out;
-  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-}
-
-.btn-branding:hover {
-  color: black;
-  background: var(--tertiary-colour);
-  border: solid 1px black;
+  margin: 60px;
 }
 
 .proj-section {
   font-family: "Sofia Sans", sans-serif;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 50px;
   color: var(--secondary-colour);
-  margin: 0px 60px;
+  margin: 130px 40px 60px;
 }
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
 .featured-proj {
   color: white;
   font-family: "Courier New", Courier, monospace;
+  margin-top: 40px;
 }
 
 .title-proj {
   font-size: 35px;
+  font-weight: 600;
 }
 
 .descrip-proj {
@@ -70,13 +59,26 @@ h2 {
   font-size: 20px;
 }
 
-.button-proj {
+.button-branding {
   font-family: "Courier New", Courier, monospace;
-  font-weight: 300;
-  background: var(--tertiary-colour);
-  border-radius: 5px;
-  color: black;
+  font-weight: 500;
   font-size: 20px;
+  background: var(--primary-colour);
+  color: var(--tertiary-colour);
+  border-radius: 5px;
   line-height: 27px;
   padding: 13px 18px;
+  border: solid 1px var(--tertiary-colour);
+  transition: 0.5s ease-out;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.button-branding:hover {
+  color: black;
+  background: var(--tertiary-colour);
+}
+
+.row2 {
+  text-align: right;
+  margin-top: 100px;
 }
