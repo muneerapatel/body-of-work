@@ -112,11 +112,14 @@ h2 {
   }
 
   .outline-proj {
-    margin: 0;
+    margin: 0px 0px 30px;
     text-align: center;
     padding: 0px;
   }
   .descrip-proj {
     font-size: 20px;
+  }
+  .button-branding {
+    margin-bottom: 20px;
   }
 }
