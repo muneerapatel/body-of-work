@@ -94,6 +94,20 @@ h2 {
   margin-top: 100px;
 }
 
+.aboutSection h1 {
+  font-size: 64px;
+  line-height: 70px;
+}
+
+.aboutSection p {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+
+.profilePicture {
+  max-width: 500px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 60px;
