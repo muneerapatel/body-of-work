@@ -101,7 +101,9 @@ h2 {
 
 .aboutSection p {
   font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
   color: white;
+  line-height: 30px;
 }
 
 .profilePicture {
