@@ -26,6 +26,19 @@ h2 {
   margin-bottom: 35px;
 }
 
+nav {
+  font-size: 20px;
+}
+
+nav li.active a {
+  color: var(--tertiary-colour);
+}
+
+.navbar-brand {
+  padding-left: 30px;
+  font-size: 20px;
+}
+
 .hero {
   text-align: center;
   margin: 60px;
@@ -118,9 +131,10 @@ h2 {
 .workDescrip {
   color: var(--quaternary-colour);
 }
+
 @media (max-width: 900px) {
   h1 {
-    font-size: 60px;
+    font-size: 40px;
   }
 
   h2 {
@@ -128,22 +142,30 @@ h2 {
   }
 
   .proj-section {
-    font-size: 35px;
+    font-size: 25px;
+    padding: 0px;
+    margin: 0px 0px 20px;
   }
 
   .featured-proj {
     margin-top: 0;
   }
 
+  .title-proj {
+    font-size: 20px;
+  }
+
   .outline-proj {
     margin: 0px 0px 30px;
     text-align: center;
-    padding: 0px;
+    padding: 15px;
   }
   .descrip-proj {
-    font-size: 20px;
+    font-size: 15px;
   }
   .button-branding {
-    margin-bottom: 20px;
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 15px;
   }
 }
