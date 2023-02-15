@@ -72,6 +72,10 @@ nav li.active a {
   height: auto;
 }
 
+.home-image {
+  align-items: center;
+}
+
 .featured-proj {
   color: white;
   margin-top: 40px;
@@ -135,6 +139,10 @@ nav li.active a {
 
 .workDescrip {
   color: var(--quaternary-colour);
+}
+
+.workDescrip a {
+  color: var(--secondary-colour);
 }
 
 .contact-subheading {
