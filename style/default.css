@@ -136,6 +136,11 @@ nav li.active a {
 .workDescrip {
   color: var(--quaternary-colour);
 }
+
+.contact-subheading {
+  color: var(--secondary-colour);
+}
+
 footer {
   margin: 60px 0;
 }
@@ -175,6 +180,20 @@ footer .social-links a {
 footer .social-links a:hover {
   color: var(--primary-colour);
   background-color: var(--secondary-colour);
+}
+
+.fin {
+  color: rgb(107, 107, 107);
+}
+
+.fin a {
+  color: rgb(107, 107, 107);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.fin a:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 900px) {
