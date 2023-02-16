@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: var(--primary-colour);
+  background-color: var(--primary-colour) !important;
   font-family: "Courier New", Courier, monospace;
 }
 
